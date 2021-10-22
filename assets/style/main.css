@@ -204,7 +204,8 @@ body .testimoni .brand img {
 }
 
 body .adventages {
-  z-index: 30 !important;
+  position: relative;
+  z-index: 10 !important;
   background: #151515;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -257,14 +258,23 @@ body .adventages .card-text {
 }
 
 body .ornament .ornament-right {
+  z-index: 2 !important;
+  position: absolute;
+  margin-top: -52px;
+}
+
+body .ornament .ornament-left {
   z-index: 0 !important;
   position: absolute;
+  margin-top: -52px;
 }
 
 body .plans {
   background: #0F0F0F;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
 }
 
 body .plans .headline {
